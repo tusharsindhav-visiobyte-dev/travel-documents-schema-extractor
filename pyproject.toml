@@ -1,0 +1,30 @@
+[project]
+name = "travel-schema"
+version = "1.0.0"
+description = "Extensible schema architecture for travel documents, shared travel entities, and derived travel events."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.9,<3",
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.32",
+    "httpx>=0.27",
+    "python-multipart>=0.0.9",
+    "pypdf>=5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["schemas*", "events*", "registry*", "validation*", "api*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

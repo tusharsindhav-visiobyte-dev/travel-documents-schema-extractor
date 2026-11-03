@@ -1,0 +1,37 @@
+{
+  "document_id": "doc-tour-1000",
+  "document_type": "tour_booking",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "confirmed",
+  "provider": {"name": "Example Tours", "provider_type": "tour_operator"},
+  "title": "Old city walking tour",
+  "tour_name": "Old city walking tour",
+  "venue": {"name": "Old City Gate", "city": "Valletta", "country_code": "MT"},
+  "start": {
+    "normalized_date": "2026-11-22",
+    "normalized_local_time": "09:00:00",
+    "iana_timezone": "Europe/Malta",
+    "timezone_known": true
+  },
+  "end": {
+    "normalized_date": "2026-11-22",
+    "normalized_local_time": "12:00:00",
+    "iana_timezone": "Europe/Malta",
+    "timezone_known": true
+  },
+  "participants": [
+    {"name": {"original_name": "Ada Lovelace"}},
+    {"name": {"original_name": "Grace Hopper"}}
+  ],
+  "destinations": [
+    {"name": "Valletta"},
+    {"name": "Birgu"}
+  ],
+  "duration_original": "3 hours",
+  "booking": {"booking_reference": "TOUR-19", "booking_status": "confirmed"},
+  "booking_status": "confirmed",
+  "quantity": 2,
+  "inclusions": ["Guide", "Headset"],
+  "payment": {"status": "paid", "total": {"amount": "70.00", "currency_code": "EUR"}}
+}

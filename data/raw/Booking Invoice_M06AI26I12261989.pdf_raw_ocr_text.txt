@@ -1,0 +1,84 @@
+Registered Office
+19th Floor, Epitome Building No.5, DLF Cybercity, DLF Phase III, Gurgaon, Haryana, 122001
+M06AI26I12261989
+Page  of 
+1
+1
+TAX INVOICE
+MAKEMYTRIP (INDIA) PRIVATE LIMITED
+19th Floor, Epitome Building No.5,
+DLF Cybercity, DLF Phase III,
+Gurgaon, Haryana, 122001
+Booking ID
+NF7AH5UU39752829945
+Invoice No.
+M06AI26I12261989
+Date
+06 Oct 2025
+Place of Supply
+Haryana
+Transactional Type/Category
+B2C/REG
+Transactional Details
+RG
+PAN
+AADCM5146R
+HSN/SAC
+998551
+GSTIN
+06AADCM5146R1ZZ
+CIN
+U63040HR2000PTC090846
+Service Description
+Reservation Services For Air 
+Transportation
+Tax Payable under RCM
+No
+Customer Name
+apexa parth joshi
+Booked By
+Apexxa Joshi
+GOX-AMD (21 Oct 2025)
+6E 381
+Passenger Name(s)
+Ticket No.
+PNR
+ 
+apexa parth joshi
+W9IWGQ
+W9IWGQ
+ 
+anjali chandrakant rana
+W9IWGQ
+W9IWGQ
+ 
+parth nitinkumar joshi
+W9IWGQ
+W9IWGQ
+ 
+chaitanya chandrakant rana
+W9IWGQ
+W9IWGQ
+PAYMENT BREAKUP
+*Fare Charges
+(including applicable flight taxes collected on behalf of airline & other ancillary charges)
+₹15620.0
+Service Fees
+₹30.51
+CGST @9%
+₹2.75
+SGST @9%
+₹2.75
+Grand Total
+₹15656.0
+Input tax credit of GST charged by the original service provider is available only against the invoice issued by the 
+respective service provider. MakeMyTrip acts only as a facilitator for these services.
+This is not a valid travel document
+TERMS & CONDITIONS
+1.
+Any dispute with respect to the invoice is to be reported back to MMT/GOIBIBO within 48 hours of receipt of invoice.
+2.
+QR code for B2B and SEZ category invoices can only be scanned using app downloaded from the link
+https://einvoice1.gst.gov.in/Others/QRCodeVerifyApp
+3.
+This is system generated invoice and does not require signatures.

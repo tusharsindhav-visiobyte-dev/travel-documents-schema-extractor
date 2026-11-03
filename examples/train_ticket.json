@@ -1,0 +1,56 @@
+{
+  "document_id": "doc-train-300",
+  "document_type": "train_ticket",
+  "schema_version": "1.0.0",
+  "document_reference": "TKT-908172",
+  "language": "en",
+  "document_status": "issued",
+  "operator": {"name": "Example Rail", "provider_type": "rail"},
+  "train_number": "9012",
+  "train_name": "Example Express",
+  "pnr": "TRL4K2",
+  "booking_status": "ticketed",
+  "travel_class": "Standard Premier",
+  "passengers": [
+    {"name": {"original_name": "Ada Lovelace"}, "seat": "12", "travel_class": "Standard Premier"},
+    {"name": {"original_name": "Grace Hopper"}, "seat": "13", "travel_class": "Standard Premier"}
+  ],
+  "segments": [
+    {
+      "segment_id": "rail-1",
+      "train_number": "9012",
+      "train_name": "Example Express",
+      "departure_station": {
+        "station_name": "London St Pancras International",
+        "city": "London",
+        "timezone": {"iana_name": "Europe/London", "timezone_known": true}
+      },
+      "arrival_station": {
+        "station_name": "Paris Gare du Nord",
+        "city": "Paris",
+        "timezone": {"iana_name": "Europe/Paris", "timezone_known": true}
+      },
+      "departure": {
+        "normalized_date": "2026-11-20",
+        "normalized_local_time": "08:01:00",
+        "iana_timezone": "Europe/London",
+        "timezone_known": true,
+        "original_time": "08:01"
+      },
+      "arrival": {
+        "normalized_date": "2026-11-20",
+        "normalized_local_time": "11:20:00",
+        "iana_timezone": "Europe/Paris",
+        "timezone_known": true,
+        "original_time": "11:20"
+      },
+      "coach": "12",
+      "seat": "12",
+      "travel_class": "Standard Premier",
+      "platform": "5",
+      "international": true
+    }
+  ],
+  "ticket_number": "TKT-908172",
+  "fare": {"amount": "178.00", "currency_code": "GBP", "original_amount_text": "GBP 178.00"}
+}

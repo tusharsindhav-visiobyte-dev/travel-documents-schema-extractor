@@ -1,0 +1,131 @@
+{
+  "document_id": "doc-flight-1001",
+  "document_type": "flight_ticket",
+  "document_subtype": "e_ticket",
+  "schema_version": "1.0.0",
+  "document_reference": "098-2400111222",
+  "issue_date": {
+    "original_date": "02 Nov 2026",
+    "normalized_date": "2026-11-02",
+    "date_only": true,
+    "time_unknown": true,
+    "timezone_known": false
+  },
+  "document_status": "issued",
+  "language": "en",
+  "issuing_organization": {
+    "name": "Example Airways",
+    "code": "EX"
+  },
+  "travel_context": {
+    "trip_id": "trip-200",
+    "trip_name": "London and Delhi",
+    "international": true
+  },
+  "traveler_ids": ["trv-1", "trv-2"],
+  "related_document_ids": ["doc-invoice-9"],
+  "airline": {
+    "name": "Example Airways",
+    "provider_type": "airline",
+    "iata_code": "EX"
+  },
+  "pnr": "HX4Q2P",
+  "booking": {
+    "booking_reference": "HX4Q2P",
+    "booking_status": "ticketed",
+    "original_status": "TICKETED"
+  },
+  "booking_status": "ticketed",
+  "passengers": [
+    {
+      "traveler_id": "trv-1",
+      "name": {"original_name": "Ada Lovelace", "given_names": "Ada", "family_name": "Lovelace"},
+      "passenger_type": "adult",
+      "ticket_number": "098-2400111222"
+    },
+    {
+      "traveler_id": "trv-2",
+      "name": {"original_name": "Grace Hopper"},
+      "passenger_type": "adult",
+      "ticket_number": "098-2400111223"
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "seg-1",
+      "flight_number": "EX101",
+      "departure_airport": {"name": "London Heathrow", "iata_code": "LHR", "city": "London"},
+      "arrival_airport": {"name": "Indira Gandhi International", "iata_code": "DEL", "city": "Delhi"},
+      "departure": {
+        "original_date": "15 Nov 2026",
+        "original_time": "21:30",
+        "normalized_date": "2026-11-15",
+        "normalized_local_time": "21:30:00",
+        "local_datetime": "2026-11-15T21:30:00",
+        "iana_timezone": "Europe/London",
+        "timezone_known": true
+      },
+      "arrival": {
+        "original_date": "16 Nov 2026",
+        "original_time": "11:15",
+        "normalized_date": "2026-11-16",
+        "normalized_local_time": "11:15:00",
+        "local_datetime": "2026-11-16T11:15:00",
+        "iana_timezone": "Asia/Kolkata",
+        "timezone_known": true
+      },
+      "departure_terminal": "4",
+      "cabin_class": "economy",
+      "overnight_journey": true,
+      "international": true
+    },
+    {
+      "segment_id": "seg-2",
+      "flight_number": "EX202",
+      "departure_airport": {"name": "Indira Gandhi International", "iata_code": "DEL"},
+      "arrival_airport": {"name": "Chhatrapati Shivaji Maharaj International", "iata_code": "BOM"},
+      "departure": {
+        "original_date": "18 Nov 2026",
+        "original_time": "09:40",
+        "normalized_date": "2026-11-18",
+        "normalized_local_time": "09:40:00",
+        "iana_timezone": "Asia/Kolkata",
+        "timezone_known": true
+      },
+      "arrival": {
+        "original_date": "18 Nov 2026",
+        "original_time": "11:45",
+        "normalized_date": "2026-11-18",
+        "normalized_local_time": "11:45:00",
+        "iana_timezone": "Asia/Kolkata",
+        "timezone_known": true
+      },
+      "cabin_class": "economy"
+    }
+  ],
+  "seat_assignments": [
+    {"passenger_ref": "trv-1", "segment_ref": "seg-1", "seat": "14A", "cabin_class": "economy"},
+    {"passenger_ref": "trv-2", "segment_ref": "seg-1", "seat": "14B", "cabin_class": "economy"}
+  ],
+  "ticket_numbers": ["098-2400111222", "098-2400111223"],
+  "fare": {
+    "fare_family": "Flex",
+    "total": {"amount": "842.00", "currency_code": "GBP", "original_amount_text": "GBP 842.00"}
+  },
+  "extraction_metadata": {
+    "extractor_name": "manual-fixture",
+    "evidence": [
+      {
+        "field_name": "pnr",
+        "extracted_value": "HX4Q2P",
+        "source_text": "Booking reference HX4Q2P",
+        "source_page": 1,
+        "confidence": 0.74,
+        "extraction_method": "manual",
+        "verification_status": "unverified"
+      }
+    ]
+  },
+  "provider_extensions": {"fare_brand_code": "YFLEX"},
+  "original_values": {"issue_date": "02 Nov 2026"}
+}

@@ -1,0 +1,70 @@
+{
+  "document_id": "doc-hotel-200",
+  "document_type": "hotel_booking",
+  "schema_version": "1.0.0",
+  "document_reference": "HTL-88421",
+  "language": "en",
+  "document_status": "confirmed",
+  "property": {
+    "name": "Hotel Lumiere",
+    "property_type": "hotel",
+    "address": {
+      "street": "12 Rue des Ecoles",
+      "city": "Paris",
+      "postal_code": "75005",
+      "country": "France",
+      "country_code": "FR"
+    },
+    "timezone": {"iana_name": "Europe/Paris", "timezone_known": true}
+  },
+  "property_address": {
+    "original_address": "12 Rue des Ecoles, 75005 Paris, France",
+    "city": "Paris",
+    "country_code": "FR"
+  },
+  "booking": {
+    "booking_reference": "HTL-88421",
+    "confirmation_number": "CNF-5521",
+    "booking_status": "confirmed",
+    "original_status": "Confirmed"
+  },
+  "booking_status": "confirmed",
+  "guests": [
+    {"name": {"original_name": "Ada Lovelace"}, "is_primary_guest": true},
+    {"name": {"original_name": "Grace Hopper"}}
+  ],
+  "guest_count": 2,
+  "rooms": [
+    {"room_type": "Classic double", "room_type_original": "Classic Double", "room_quantity": 1, "occupancy": 2},
+    {"room_type": "Single", "room_quantity": 1, "occupancy": 1}
+  ],
+  "check_in": {
+    "original_date": "10 Nov 2026",
+    "normalized_date": "2026-11-10",
+    "time_unknown": true,
+    "date_only": true,
+    "iana_timezone": "Europe/Paris",
+    "timezone_known": true
+  },
+  "check_out": {
+    "original_date": "13 Nov 2026",
+    "normalized_date": "2026-11-13",
+    "time_unknown": true,
+    "date_only": true,
+    "iana_timezone": "Europe/Paris",
+    "timezone_known": true
+  },
+  "number_of_nights": 3,
+  "meal_plan": "breakfast",
+  "meal_plan_original": "Breakfast included",
+  "payment_status": "paid",
+  "payment": {
+    "status": "paid",
+    "total": {"amount": "640.00", "currency_code": "EUR", "original_amount_text": "EUR 640.00"}
+  },
+  "cancellation_policy": {
+    "refundable": true,
+    "original_text": "Free cancellation until 8 Nov 2026."
+  },
+  "rate_quote": {"amount": "640.00", "currency_code": "EUR"}
+}

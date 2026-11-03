@@ -1,0 +1,29 @@
+{
+  "document_id": "doc-invoice-1200",
+  "document_type": "travel_invoice",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "document_reference": "INV-2026-44",
+  "invoice_number": "INV-2026-44",
+  "issue_date": {"normalized_date": "2026-11-02", "date_only": true},
+  "due_date": {"normalized_date": "2026-11-16", "date_only": true},
+  "payer": {"name": "Ada Lovelace", "person": {"name": {"original_name": "Ada Lovelace"}}},
+  "payee": {"name": "Example Airways", "organization": {"name": "Example Airways"}},
+  "line_items": [
+    {
+      "description": "Airfare London to Delhi",
+      "quantity": "2",
+      "total_amount": {"amount": "1684.00", "currency_code": "GBP"}
+    },
+    {
+      "description": "Taxes and carrier charges",
+      "total_amount": {"amount": "210.40", "currency_code": "GBP"}
+    }
+  ],
+  "subtotal": {"amount": "1684.00", "currency_code": "GBP"},
+  "tax_total": {"amount": "210.40", "currency_code": "GBP"},
+  "total": {"amount": "1894.40", "currency_code": "GBP", "original_amount_text": "GBP 1,894.40"},
+  "payment_status": "unpaid",
+  "related_booking_reference": "HX4Q2P"
+}

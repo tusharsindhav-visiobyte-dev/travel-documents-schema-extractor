@@ -1,0 +1,65 @@
+{
+  "document_id": "doc-itin-600",
+  "document_type": "travel_itinerary",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "trip_name": "Paris and Lyon",
+  "start": {"normalized_date": "2026-11-10", "date_only": true, "time_unknown": true},
+  "end": {"normalized_date": "2026-11-12", "date_only": true, "time_unknown": true},
+  "travelers": [
+    {"traveler_id": "trv-1", "name": {"original_name": "Ada Lovelace"}}
+  ],
+  "destinations": [
+    {"name": "Paris", "city": "Paris", "country": "France", "country_code": "FR"},
+    {"name": "Lyon", "city": "Lyon", "country": "France", "country_code": "FR"}
+  ],
+  "days": [
+    {
+      "day_number": 1,
+      "date": {"normalized_date": "2026-11-10", "date_only": true},
+      "title": "Arrive in Paris",
+      "locations": [{"name": "Paris"}],
+      "transportation": [
+        {
+          "mode": "flight",
+          "service_number": "EX101",
+          "departure_location": {"name": "London"},
+          "arrival_location": {"name": "Paris"}
+        }
+      ],
+      "accommodation": {"name": "Hotel Lumiere", "property_type": "hotel"}
+    },
+    {
+      "day_number": 2,
+      "date": {"normalized_date": "2026-11-11", "date_only": true},
+      "title": "Museums",
+      "locations": [{"name": "Paris"}],
+      "activities": [
+        {"title": "Louvre", "location": {"name": "Louvre Museum", "city": "Paris"}},
+        {"title": "Seine walk", "included": true}
+      ]
+    },
+    {
+      "day_number": 3,
+      "date": {"normalized_date": "2026-11-12", "date_only": true},
+      "title": "Train to Lyon",
+      "locations": [{"name": "Lyon"}],
+      "transportation": [
+        {
+          "mode": "train",
+          "service_number": "6601",
+          "departure": {"iana_timezone": "Europe/Paris", "normalized_local_time": "07:40:00", "normalized_date": "2026-11-12"},
+          "arrival": {"iana_timezone": "Europe/Paris", "normalized_local_time": "09:36:00", "normalized_date": "2026-11-12"}
+        }
+      ],
+      "accommodation": {"name": "Lyon Homestay", "property_type": "homestay"}
+    }
+  ],
+  "accommodations": [
+    {"name": "Hotel Lumiere", "property_type": "hotel"},
+    {"name": "Lyon Homestay", "property_type": "homestay"}
+  ],
+  "scheduled_events": [
+    {"title": "Welcome dinner", "start": {"normalized_date": "2026-11-10", "original_time": "19:30", "time_unknown": false}}
+  ]
+}

@@ -1,0 +1,70 @@
+TAX INVOICE
+MAKEMYTRIP (INDIA) PRIVATE LIMITED
+19th Floor, Epitome Building No.5,
+DLF Cybercity, DLF Phase III,
+Gurgaon, Haryana, 122001
+Booking ID
+NH75236476857554
+Invoice No.
+M06HL27I00463152
+Date
+09 Apr 2026
+Place of Supply
+Haryana
+Transactional Type/Category
+REG/B2C
+Transactional Details
+RG
+PAN
+AADCM5146R
+HSN/SAC
+998552
+GSTIN
+06AADCM5146R1ZZ
+CIN
+U63040HR2000PTC090846
+Service Description
+Reservation service for accommodation
+Tax Payable under RCM
+No
+Advanced Receipt Voucher No.
+M06HL27A00422609
+Customer Name
+Chaitanya Rana
+Hotel Name
+Regenta Z Vadodara
+Hotel City
+VADODARA
+Check-in
+Thu, 09 Apr 2026
+Check-Out
+Fri, 10 Apr 2026
+*Accommodation Charges
+(Inclusive of applicable taxes collected on behalf of hotel)
+₹2574.3
+Service Fees
+₹138.17
+Reversal of MakeMyTrip Service Fee
+₹‑0.0
+CGST @9%
+₹12.44
+SGST @9%
+₹12.44
+Grand Total
+₹2737.34
+Input tax credit of GST charged by the original service provider is available only against the invoice issued by the respective service provider. 
+MakeMyTrip acts only as a facilitator for these services.
+This is not a valid travel document
+1.
+Any dispute with respect to the invoice is to be reported back to MMT/GOIBIBO within 48 hours of receipt of invoice.
+2.
+QR code for B2B and SEZ category invoices can only be scanned using app downloaded from the link
+https://einvoice1.gst.gov.in/Others/QRCodeVerifyApp
+3.
+This is system generated invoice and does not require signatures.
+Registered Office
+19th Floor, Epitome Building No.5, DLF Cybercity, DLF Phase III, Gurgaon, Haryana, 122001
+M06HL27I00463152
+Page 1 of 1
+PAYMENT BREAKUP
+TERMS & CONDITIONS

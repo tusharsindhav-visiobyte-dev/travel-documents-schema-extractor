@@ -1,0 +1,21 @@
+{
+  "document_id": "doc-passport-700",
+  "document_type": "passport",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "issuing_country": "Exampleland",
+  "issuing_country_code": "EX",
+  "nationality": "Exampleland",
+  "identity_document_number": null,
+  "holder": {
+    "name": {"original_name": "Ada Lovelace", "given_names": "Ada", "family_name": "Lovelace"}
+  },
+  "issue_date": {"normalized_date": "2022-03-01", "date_only": true},
+  "expiry_date": {"normalized_date": "2032-03-01", "date_only": true},
+  "validity_start": {"normalized_date": "2022-03-01", "date_only": true},
+  "validity_end": {"normalized_date": "2032-03-01", "date_only": true},
+  "place_of_issue": "Capital City",
+  "passport_type": "P",
+  "original_values": {"identity_document_number": "withheld"}
+}

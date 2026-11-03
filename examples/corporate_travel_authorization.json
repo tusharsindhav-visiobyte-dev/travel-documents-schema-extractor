@@ -1,0 +1,29 @@
+{
+  "document_id": "doc-corp-1300",
+  "document_type": "corporate_travel_authorization",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "company": {"name": "Example Labs"},
+  "employee": {
+    "traveler_id": "emp-17",
+    "name": {"original_name": "Ada Lovelace"}
+  },
+  "purpose": "Client workshop",
+  "cost_center": "CC-440",
+  "department": "Research",
+  "approval_status": "approved",
+  "authorization_number": "AUTH-7781",
+  "authorized_amount": {"amount": "2500.00", "currency_code": "GBP"},
+  "destinations": [
+    {"name": "Paris", "country_code": "FR"},
+    {"name": "Lyon", "country_code": "FR"}
+  ],
+  "valid_from": {"normalized_date": "2026-11-10", "date_only": true},
+  "valid_until": {"normalized_date": "2026-11-14", "date_only": true},
+  "trip": {
+    "trip_name": "Paris workshop",
+    "purpose": "Client workshop",
+    "international": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "document_id": "doc-consent-1400",
+  "document_type": "child_travel_consent",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "child": {
+    "name": {"original_name": "Mae Lovelace"},
+    "date_of_birth": {"original_date": "12 May 2016", "normalized_date": null}
+  },
+  "guardians": [
+    {"name": {"original_name": "Ada Lovelace"}},
+    {"name": {"original_name": "Charles Lovelace"}}
+  ],
+  "accompanying_adult": {"name": {"original_name": "Grace Hopper"}},
+  "consent_statement": "We consent to Mae Lovelace travelling to Paris with Grace Hopper.",
+  "destinations": [{"name": "Paris", "country": "France"}],
+  "valid_from": {"normalized_date": "2026-11-10", "date_only": true},
+  "valid_until": {"normalized_date": "2026-11-20", "date_only": true}
+}

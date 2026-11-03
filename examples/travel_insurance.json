@@ -1,0 +1,37 @@
+{
+  "document_id": "doc-ins-800",
+  "document_type": "travel_insurance",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "insurer": {"name": "Example Cover", "provider_type": "insurer"},
+  "policy": {
+    "policy_number": "POL-44190",
+    "product_name": "International travel cover",
+    "insurer": {"name": "Example Cover", "provider_type": "insurer"},
+    "coverage_start": {"normalized_date": "2026-11-15", "date_only": true, "iana_timezone": "Europe/London", "timezone_known": true},
+    "coverage_end": {"normalized_date": "2026-11-30", "date_only": true, "iana_timezone": "Europe/London", "timezone_known": true},
+    "insured_persons": [
+      {"name": {"original_name": "Ada Lovelace"}},
+      {"name": {"original_name": "Grace Hopper"}}
+    ],
+    "coverage_details": [
+      {
+        "coverage_type": "medical",
+        "limit": {"amount": "1000000.00", "currency_code": "EUR"},
+        "original_text": "Medical expenses up to EUR 1,000,000"
+      }
+    ],
+    "emergency_contact": {"phone": "+44 20 7946 0000", "contact_role": "assistance"},
+    "geographic_coverage": "Worldwide excluding home country"
+  },
+  "coverage_start": {"normalized_date": "2026-11-15", "date_only": true},
+  "coverage_end": {"normalized_date": "2026-11-30", "date_only": true},
+  "insured_persons": [
+    {"name": {"original_name": "Ada Lovelace"}},
+    {"name": {"original_name": "Grace Hopper"}}
+  ],
+  "emergency_contact": {"phone": "+44 20 7946 0000", "contact_role": "assistance"},
+  "covered_trip": "London and Delhi",
+  "trip_cost": {"amount": "1800.00", "currency_code": "GBP"}
+}

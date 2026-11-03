@@ -1,0 +1,47 @@
+{
+  "document_id": "doc-car-500",
+  "document_type": "car_rental",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "confirmed",
+  "rental_company": {"name": "Example Rentals", "provider_type": "car_rental"},
+  "vehicle": {
+    "vehicle_category": "compact",
+    "make": "Example",
+    "model": "City",
+    "registration_number": null,
+    "original_description": "Compact or similar"
+  },
+  "pickup_location": {"name": "Lisbon Airport", "city": "Lisbon", "country_code": "PT"},
+  "return_location": {"name": "Porto Downtown", "city": "Porto", "country_code": "PT"},
+  "pickup": {
+    "normalized_date": "2026-12-01",
+    "normalized_local_time": "10:00:00",
+    "iana_timezone": "Europe/Lisbon",
+    "timezone_known": true
+  },
+  "return_datetime": {
+    "normalized_date": "2026-12-05",
+    "normalized_local_time": "18:00:00",
+    "iana_timezone": "Europe/Lisbon",
+    "timezone_known": true
+  },
+  "drivers": [
+    {"name": {"original_name": "Ada Lovelace"}, "is_primary_driver": true, "license_number": null}
+  ],
+  "rental_duration_original": "4 days",
+  "rental_duration_days": 4,
+  "insurance_coverage": {
+    "product_name": "Collision damage waiver",
+    "insurer": {"name": "Example Cover", "provider_type": "insurer"}
+  },
+  "booking_status": "confirmed",
+  "booking": {"booking_reference": "CAR-2201", "booking_status": "confirmed"},
+  "payment": {
+    "status": "authorized",
+    "total": {"amount": "210.00", "currency_code": "EUR"}
+  },
+  "fuel_policy": "Full to full",
+  "mileage_policy": "Unlimited",
+  "rate": {"amount": "42.00", "currency_code": "EUR", "original_amount_text": "EUR 42 per day"}
+}

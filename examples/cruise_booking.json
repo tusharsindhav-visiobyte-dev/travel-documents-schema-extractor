@@ -1,0 +1,45 @@
+{
+  "document_id": "doc-cruise-900",
+  "document_type": "cruise_booking",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "confirmed",
+  "operator": {"name": "Example Cruises", "provider_type": "cruise"},
+  "vessel_name": "Example Star",
+  "passengers": [
+    {"name": {"original_name": "Ada Lovelace"}},
+    {"name": {"original_name": "Grace Hopper"}}
+  ],
+  "departure_port": {"name": "Barcelona", "country_code": "ES"},
+  "arrival_port": {"name": "Rome", "country_code": "IT"},
+  "departure": {
+    "normalized_date": "2026-12-10",
+    "normalized_local_time": "17:00:00",
+    "iana_timezone": "Europe/Madrid",
+    "timezone_known": true
+  },
+  "arrival": {
+    "normalized_date": "2026-12-17",
+    "normalized_local_time": "07:00:00",
+    "iana_timezone": "Europe/Rome",
+    "timezone_known": true
+  },
+  "cabin_number": "8124",
+  "cabin_category": "Balcony",
+  "ports_of_call": [
+    {
+      "port": {"name": "Marseille", "country_code": "FR"},
+      "arrival": {"normalized_date": "2026-12-11", "iana_timezone": "Europe/Paris", "timezone_known": true},
+      "departure": {"normalized_date": "2026-12-11", "iana_timezone": "Europe/Paris", "timezone_known": true}
+    },
+    {
+      "port": {"name": "Genoa", "country_code": "IT"},
+      "arrival": {"normalized_date": "2026-12-13", "iana_timezone": "Europe/Rome", "timezone_known": true}
+    }
+  ],
+  "booking": {"booking_reference": "CRU-310", "booking_status": "confirmed"},
+  "booking_status": "confirmed",
+  "deposit": {"amount": "400.00", "currency_code": "EUR"},
+  "balance_due": {"amount": "1600.00", "currency_code": "EUR"},
+  "dining_seating": "Main, 18:30"
+}

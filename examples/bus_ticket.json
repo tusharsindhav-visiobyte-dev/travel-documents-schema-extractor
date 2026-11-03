@@ -1,0 +1,42 @@
+{
+  "document_id": "doc-bus-400",
+  "document_type": "bus_ticket",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "issued",
+  "operator": {"name": "Example Coaches", "provider_type": "bus"},
+  "bus_number": "C42",
+  "bus_type_original": "Seater",
+  "booking_status": "ticketed",
+  "passengers": [
+    {"name": {"original_name": "Ada Lovelace"}, "seat": "7A"}
+  ],
+  "segments": [
+    {
+      "departure_location": {"name": "Mumbai Central", "city": "Mumbai"},
+      "arrival_location": {"name": "Pune Station", "city": "Pune"},
+      "boarding_point": {"name": "Dadar TT", "city": "Mumbai"},
+      "dropping_point": {"name": "Shivajinagar", "city": "Pune"},
+      "departure": {
+        "original_date": "21 Nov 2026",
+        "original_time": "22:30",
+        "normalized_date": "2026-11-21",
+        "normalized_local_time": "22:30:00",
+        "iana_timezone": "Asia/Kolkata",
+        "timezone_known": true
+      },
+      "arrival": {
+        "original_date": "22 Nov 2026",
+        "original_time": "04:15",
+        "normalized_date": "2026-11-22",
+        "normalized_local_time": "04:15:00",
+        "iana_timezone": "Asia/Kolkata",
+        "timezone_known": true
+      },
+      "seat": "7A",
+      "overnight_journey": true
+    }
+  ],
+  "ticket_number": "BUS-77120",
+  "booking": {"booking_reference": "BUS-77120", "booking_status": "ticketed"}
+}

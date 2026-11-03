@@ -1,0 +1,31 @@
+{
+  "document_id": "doc-transfer-1100",
+  "document_type": "airport_transfer",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "document_status": "confirmed",
+  "provider": {"name": "Example Transfers", "provider_type": "transfer"},
+  "transfer_direction": "arrival",
+  "pickup_location": {"name": "Vienna Airport", "city": "Vienna", "country_code": "AT"},
+  "dropoff_location": {
+    "name": "Hotel Central",
+    "address": {"city": "Vienna", "country_code": "AT"}
+  },
+  "pickup": {
+    "normalized_date": "2026-11-19",
+    "original_time": "after landing",
+    "time_unknown": true,
+    "iana_timezone": "Europe/Vienna",
+    "timezone_known": true,
+    "ambiguity_notes": "The voucher says after landing and does not print a clock time."
+  },
+  "passengers": [
+    {"name": {"original_name": "Ada Lovelace"}}
+  ],
+  "flight_number": "EX440",
+  "terminal": "3",
+  "vehicle": {"vehicle_category": "sedan", "original_description": "Private sedan"},
+  "booking": {"booking_reference": "XFR-88", "booking_status": "confirmed"},
+  "booking_status": "confirmed",
+  "instructions": "Driver will wait in arrivals with a name board."
+}
